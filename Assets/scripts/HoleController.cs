@@ -5,7 +5,6 @@ using UnityEngine;
 public class HoleController : MonoBehaviour
 {
 	public GameObject healthBar;			// display of pipe's fix progress
-	public AudioClip waterSound;			// sound effect which plays on pipe break
 	private int pipeHealth = 100;			// all pipes start at full health
 	private int strength = 0;				// strength will cause pipes to withstand further breaks
 	private float healthBarWidth = .4F;		// dimension for UI calculation and display
